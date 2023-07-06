@@ -1,0 +1,119 @@
+*{
+    background-color:rgb(135, 222, 174);
+}
+.qwe{
+    display: none;
+    justify-content: center;    
+    align-items: center;
+}
+input[type = text], input[type = email], input[type = date], input[type = number]{
+ 
+    width: 100vh;
+    display: flex;
+    padding: 5px;
+    /* display: inline-block; */
+    border-radius: 20px;
+    border: solid 1px;
+
+}
+#city{
+    
+    width: 100vh;
+    display: flex;
+    padding: 5px;
+    /* display: inline-block; */
+    border-radius: 20px; 
+    border: solid 1px;
+    display: none;
+}
+#citys{
+    
+    width: 100vh;
+    display: flex;
+    padding: 5px;
+    /* display: inline-block; */
+    border-radius: 20px; 
+    border: solid 1px;
+}
+
+.required-field::after {
+    content: "*";
+    color: red;
+    font-size: 10px;
+    vertical-align: super;/*for superscript*/
+
+}
+#cars{
+    
+    width: 102vh;
+    display: flex;
+    padding: 5px;
+    /* display: inline-block; */
+    border-radius: 20px; 
+    border: solid 1px;
+}
+table,td,td{
+    border: 2px dashed;
+    text-align: center;
+    font-size: larger; 
+}
+
+
+label{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+    margin: 10px;
+
+}
+
+
+#home {
+    display: block;
+    margin: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #ffffff;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 97%;
+}
+
+#home:hover {
+    background-color: whitesmoke;
+    color:  black;
+  }
+button {
+    justify-content:center;
+    align-items: center;
+    display:flex;
+    border: 20 px solid ;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    padding: 14px 10px;
+    margin: 8px ; 
+    cursor:pointer;
+    width: 99%;
+  }
+  button:hover {
+    /* opacity: 0.8; */
+    background-color: skyblue;
+    color: black;
+  }
+  .btn{
+    justify-content:center;
+    align-items: center;
+    display:flex;
+    border: 20 px solid ;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    padding: 14px 10px;
+    margin: 8px ; 
+    cursor:pointer;
+    width: 99%; 
+    background-color: rgb(135, 222, 174);;
+  }
